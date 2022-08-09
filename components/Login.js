@@ -10,16 +10,25 @@ export default function Login() {
       </Head>
 
       <Center h="100vh">
-        <Box
-          bgColor="blue.500"
-          w="fit-content"
-          p={5}
-          rounded="xl"
-          boxShadow="md"
+        <Stack
+          align="center"
+          bgColor="gray.600"
+          p={16}
+          rounded="3xl"
+          spacing={12}
+          boxShadow="lg"
         >
-          <ChatIcon w="100px" h="100px" color="white" />
-        </Box>
-        <Button boxShadow="md">Sign In with Google</Button>
+          <Box
+            bgColor="blue.500"
+            w="fit-content"
+            p={5}
+            rounded="3xl"
+            boxShadow="md"
+          >
+            <ChatIcon w="100px" h="100px" color="white" />
+          </Box>
+          <Button boxShadow="md">Sign In with Google</Button>
+        </Stack>
       </Center>
     </>
   )
